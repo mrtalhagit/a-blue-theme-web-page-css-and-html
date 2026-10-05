@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    background-color: #08111f;
+    color: white;
+    font-family: Arial;
+}
+
+
+/* Header */
+
+header {
+    background-color: #0d1828;
+    padding: 20px;
+    border-bottom: 1px solid #26364d;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header span {
+    color: #3290ff;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+
+/* Hero */
+
+.hero {
+    padding: 70px 10%;
+    background-color: #10233d;
+}
+
+.hero-text {
+    width: 500px;
+}
+
+.hero-text p {
+    color: #aebbd0;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+}
+
+.hero-text h2 span {
+    color: #3290ff;
+}
+
+button {
+    padding: 12px 25px;
+    margin-top: 10px;
+
+    background-color: #3290ff;
+    color: white;
+
+    border: 1px solid #3290ff;
+    border-radius: 20px;
+}
+
+.view {
+    background-color: #10233d;
+    margin-left: 10px;
+}
+
+
+/* Features */
+
+.features {
+    padding: 40px 10%;
+    background-color: #0b1625;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 20%;
+    text-align: center;
+    padding: 15px;
+}
+
+.box h3 {
+    color: white;
+}
+
+.box p {
+    color: #9eacc0;
+}
+
+
+/* About */
+
+.about {
+    padding: 50px 10%;
+    background-color: #091321;
+
+    display: flex;
+}
+
+.about-image {
+    width: 50%;
+}
+
+.about-image img {
+    width: 90%;
+    border: 1px solid #40536b;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-text p {
+    color: #aebbd0;
+}
+
+.about-text h2 {
+    font-size: 30px;
+}
+
+
+/* Projects */
+
+.projects {
+    padding: 50px 10%;
+    text-align: center;
+    background-color: #0b1625;
+}
+
+.project-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    width: 30%;
+    text-align: left;
+}
+
+.project img {
+    width: 100%;
+    height: 120px;
+    border: 1px solid #40536b;
+}
+
+.project p {
+    color: #8fa0b5;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 30px 10%;
+    background-color: #070e18;
+    border-top: 1px solid #26364d;
+}
+
+footer h2 {
+    margin: 0;
+}
+
+footer span {
+    color: #3290ff;
+}
